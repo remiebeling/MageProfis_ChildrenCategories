@@ -1,0 +1,11 @@
+<?php /* @var $this MageProfis_ChildrenCategories_Block_Category_Children */ ?>
+<div class="row">
+    <?php foreach ($this->getChildrenCategories() as $_category): ?>
+        <?php //Zend_Debug::dump($_category->getData()); ?>
+        <div class="category col-sm-3">
+            <a href="<?php echo $_category->getUrl(); ?>" title="<?php echo $_category->getName(); ?>">
+                <img src="<?php echo $this->getImagesDir() . $_category->getCategoryThumbnail(); ?>" alt="<?php echo $_category->getName(); ?>"/>
+            </a>
+        </div>
+    <?php endforeach; ?>
+</div>
