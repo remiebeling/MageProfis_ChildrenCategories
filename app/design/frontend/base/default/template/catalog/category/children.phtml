@@ -4,6 +4,7 @@
         <div class="category col-sm-3 col-xs-4">
             <a href="<?php echo $_category->getUrl(); ?>" title="<?php echo $_category->getName(); ?>">
                 <img src="<?php echo $this->getImagesDir() . $_category->getCategoryThumbnail(); ?>" alt="<?php echo $_category->getName(); ?>"/>
+                <div class="category-name"><?php echo $_category->getName(); ?></div>
             </a>
         </div>
     <?php endforeach; ?>
