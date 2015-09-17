@@ -9,6 +9,11 @@
     </catalog_category_layered>
     
     <show_children>
+        <reference name="head">
+            <action method="addCss">
+                <file>css/mageprofis/children_categories.css</file>
+            </action>
+        </reference>
         <reference name="category.products">
             <block type="childrencategories/category_children" name="category.children" template="catalog/category/children.phtml" />
         </reference>

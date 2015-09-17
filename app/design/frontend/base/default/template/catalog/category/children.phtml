@@ -1,8 +1,7 @@
 <?php /* @var $this MageProfis_ChildrenCategories_Block_Category_Children */ ?>
-<div class="row">
+<div class="children-categories row">
     <?php foreach ($this->getChildrenCategories() as $_category): ?>
-        <?php //Zend_Debug::dump($_category->getData()); ?>
-        <div class="category col-sm-3">
+        <div class="category col-sm-3 col-xs-4">
             <a href="<?php echo $_category->getUrl(); ?>" title="<?php echo $_category->getName(); ?>">
                 <img src="<?php echo $this->getImagesDir() . $_category->getCategoryThumbnail(); ?>" alt="<?php echo $_category->getName(); ?>"/>
             </a>
