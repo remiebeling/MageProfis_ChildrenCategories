@@ -1,4 +1,8 @@
-<?php /* @var $this MageProfis_ChildrenCategories_Block_Category_Children */ ?>
+<?php
+    /* @var $this MageProfis_ChildrenCategories_Block_Category_Children */ 
+    $_categories = $this->getChildrenCategories();
+?>
+<?php if( $_categories->count() > 0 ): ?>
 <div class="children-categories row">
     <?php foreach ($this->getChildrenCategories() as $_category): ?>
         <div class="category col-sm-3 col-xs-4">
@@ -9,3 +13,4 @@
         </div>
     <?php endforeach; ?>
 </div>
+<?php endif; ?>
