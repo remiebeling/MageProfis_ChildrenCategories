@@ -65,11 +65,11 @@
         </acl>
        <translate>
            <modules>
-               <translations>
+               <childrencategories>
                    <files>
                        <default>MageProfis_ChildrenCategories.csv</default>
                    </files>
-               </translations>
+               </childrencategories>
            </modules>
        </translate>
     </adminhtml>

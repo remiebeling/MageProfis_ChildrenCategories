@@ -34,7 +34,7 @@
                             <show_in_store>1</show_in_store>
                         </active>
                         <amount translate="label">
-                            <label>how many children categories shall be displayed</label>
+                            <label>How many children categories shall be displayed</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
