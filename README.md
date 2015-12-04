@@ -9,7 +9,7 @@ category attributes.
 
 ###How to
 add the following line to
-catalog/category/view.phtml
+catalog/category/view.phtml <br />
 <?php echo $this->getChildHtml('category.children');?>
 
 
