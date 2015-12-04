@@ -1,6 +1,6 @@
-app/code/local/MageProfis/ChildrenCategories/                                   app/code/local/MageProfis/ChildrenCategories/
-app/design/frontend/base/default/layout/mageprofis-childrencategories.xml	app/design/frontend/base/default/layout/mageprofis-childrencategories.xml				
-app/design/frontend/base/default/template/catalog/category/children.phtml       app/design/frontend/base/default/template/catalog/category/children.phtml
-app/etc/modules/MageProfis_ChildrenCategories.xml                               app/etc/modules/MageProfis_ChildrenCategories.xml
-app/locale/de_DE/MageProfis_ChildrenCategories.csv                              app/locale/de_DE/MageProfis_ChildrenCategories.csv
-skin/frontend/base/default/css/mageprofis/children_categories.css               skin/frontend/base/default/css/mageprofis/children_categories.css
+src/app/code/local/MageProfis/ChildrenCategories/                                   app/code/local/MageProfis/ChildrenCategories/
+src/app/design/frontend/base/default/layout/mageprofis-childrencategories.xml	    app/design/frontend/base/default/layout/mageprofis-childrencategories.xml				
+src/app/design/frontend/base/default/template/catalog/category/children.phtml       app/design/frontend/base/default/template/catalog/category/children.phtml
+src/app/etc/modules/MageProfis_ChildrenCategories.xml                               app/etc/modules/MageProfis_ChildrenCategories.xml
+src/app/locale/de_DE/MageProfis_ChildrenCategories.csv                              app/locale/de_DE/MageProfis_ChildrenCategories.csv
+src/skin/frontend/base/default/css/mageprofis/children_categories.css               skin/frontend/base/default/css/mageprofis/children_categories.css
