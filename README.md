@@ -8,6 +8,14 @@ category attributes.
 "category_thumbnail"            => Image to be displayed on parent category
 
 ###How to
+add the following line to
+catalog/category/view.phtml
+
+<pre>
+<?php echo $this->getChildHtml('category.children');?>
+</pre>
+
+
 <p>Die Kachen mit den Unterkategorien auf Kategorieebene werden folgendermaßen gepflegt:</p>
 <ol>
 <li>
@@ -29,7 +37,7 @@ Als nächstes müssen die Unterkategorien gewählt werden. Dazu bitte die Katego
 “Position in parent category” -> hier kann eine Zahl angegeben werden um die Reihenfolge der Kategorien zu bestimmen.
 </li>
 <li>
-Miniaturbild -> Hier muss das Bild Hochgeladen werden dass angezeigt werden soll. Bitte laden Sie alle Bilder in der Größe 244 mal 184 Pixel hoch.
+Miniaturbild -> Hier muss das Bild Hochgeladen werden dass angezeigt werden soll. 
 </li>
 </ul>
 </li>
