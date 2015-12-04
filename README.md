@@ -10,10 +10,8 @@ category attributes.
 ###How to
 add the following line to
 catalog/category/view.phtml
-
-<pre>
 <?php echo $this->getChildHtml('category.children');?>
-</pre>
+
 
 
 <p>Die Kachen mit den Unterkategorien auf Kategorieebene werden folgendermaßen gepflegt:</p>
