@@ -1,0 +1,20 @@
+{
+  "name": "mageprofis/childrencategories",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Magento ChildrenCategegories",
+  "homepage": "https://github.com/remiebeling/ChildrenCategories",
+  "require": {
+    "php": ">=5.3"
+  },
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Remi Ebeling",
+      "email": "remi@mage-profis.de",
+      "role": "Author/Maintainer"
+    }
+  ]
+}
